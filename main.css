@@ -3,15 +3,16 @@
     padding: 0;
 }
 
-.weather-container {
-    background: rgb(184, 203, 218);
-    height: 200px;
-    width: 100%;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
+.clear-weather {
+    background: rgb(202, 232, 255);
+}
+
+.clouds-weather {
+    background: rgb(191, 210, 233);
+}
+
+.rain-weather {
+    background: rgb(169, 175, 202);
 }
 
 .icon {
@@ -25,10 +26,6 @@
 
 .temp {
     font-size: 60px;
-    margin: 0;
     font-weight: bold;
-    background-color: white;
-    width: 100px;
-    border-radius: 50%;
 }
 
